@@ -1,27 +1,16 @@
 # TestHebcalDx
+This project is a POC and miminal example of an error in hebcal/core (https://github.com/hebcal/hebcal-es6/) library in Angular, with devexpress (https://js.devexpress.com/Angular/Documentation/Guide/Angular_Components/Getting_Started/Add_DevExtreme_to_an_Angular_CLI_Application/)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
+git clone https://github.com/aepshtin/test-hebcal-dx
 
-## Development server
+cd test-hebcal-dx
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+npm i
 
-## Code scaffolding
+ng s
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+then open the browser at: http://localhost:4200/
 
-## Build
+and see the error in the console
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Just comment out the Zman initilze and see how it works well
